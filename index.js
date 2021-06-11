@@ -23,6 +23,7 @@ class App extends Component {
   moreInfoClick = (e) => {
     e.stopPropagation();
     console.log("clicked");
+    console.log('test');
   }
   render() {
     return (
